@@ -20,7 +20,7 @@ When a check fails, Upptime opens an issue titled "🛑 <Component> is down", la
 
 **Post when** customers are affected for more than about 5 minutes. That includes outages Upptime can't see: a broken feature, wrong data, or a slow integration.
 
-1. **Acknowledge within 15 minutes.** On Upptime's issue, comment what customers see and that you're investigating. If there's no issue yet, open one with the **Incident** template and add the slug label for each affected component.
+1. **Acknowledge within 15 minutes.** On Upptime's issue, comment what customers see and that you're investigating. If there's no issue yet, open one with the **Incident** template, then add the `status` label and the slug label for each affected component. It isn't on the status page until it has `status`.
 2. **Update at least every 30 minutes** until it's resolved, even when nothing has changed ("Still investigating; next update by 14:30 UTC").
 3. **Resolve.** Post a final comment saying what happened in customer terms and when service recovered, then close the issue. If Upptime already closed it, add the comment anyway.
 
@@ -28,7 +28,9 @@ Comments on the issue appear on the status page as updates. Edit the issue title
 
 ## Scheduled maintenance
 
-Open an issue with the **Scheduled maintenance** template at least 48 hours before customer-visible work. Fill in `start`, `end` (UTC) and `expectedDown` with the slugs of affected components. Close it when the work is done.
+Open an issue with the **Scheduled maintenance** template at least 48 hours before customer-visible work. Fill in `start`, `end` (UTC) and `expectedDown` with the slugs of affected components, then add the `maintenance` label. Close it when the work is done.
+
+The templates set no labels on purpose: GitHub applies a template's labels for anyone who uses it, so a stranger could otherwise publish an incident. Only people with Triage access can add labels.
 
 ## Rules
 
