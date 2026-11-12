@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Contact Sail support
+    url: mailto:support@savewithsail.com
+    about: For help with your account or to report a problem, email support. This repository only hosts the status page.
