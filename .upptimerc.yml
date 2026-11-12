@@ -1,0 +1,66 @@
+# Upptime config for https://status.savewithsail.com (SAI-1118).
+# Workflows in .github/workflows are generated from this file; edit here, not there.
+owner: sail-team
+repo: status
+
+# Authoritative allowlist: only these secrets reach Upptime's SECRETS_CONTEXT.
+secrets:
+  - NOTIFICATION_SLACK
+  - NOTIFICATION_SLACK_WEBHOOK_URL
+  - SECRETS_PLATFORM_API_KEY
+
+sites:
+  - name: App
+    url: https://app.savewithsail.com
+    maxResponseTime: 5000
+  - name: Platform API
+    url: https://live.savewithsail.com/api/v1/merchants?limit=1
+    headers:
+      - "Authorization: Bearer $SECRETS_PLATFORM_API_KEY"
+    maxResponseTime: 5000
+  - name: Benefit Connect API
+    # The trailing slash matters: /api/v1 without it returns 404.
+    url: https://live.sail-platform.com/api/v1/
+    maxResponseTime: 5000
+
+status-website:
+  cname: status.savewithsail.com
+  name: Sail Status
+  introTitle: "**Sail Status**"
+  introMessage: Live status of Sail's app and APIs. Incidents and maintenance are posted here.
+  logoUrl: https://raw.githubusercontent.com/sail-team/status/main/assets/apple-touch-icon.png
+  favicon: https://raw.githubusercontent.com/sail-team/status/main/assets/favicon.png
+  navbar:
+    - title: Status
+      href: /
+    - title: savewithsail.com
+      href: https://www.savewithsail.com
+    - title: Contact support
+      href: mailto:support@savewithsail.com
+  # Light only: Sail's palette is defined for light backgrounds.
+  theme: light
+  links:
+    - rel: stylesheet
+      href: https://fonts.googleapis.com/css2?family=Manrope:wght@600;700;800&family=Poppins:wght@400;500;600&display=swap
+  # Values copied from www.savewithsail.com's design tokens (tokens/colors.css), not linked:
+  # that path is content-hashed and the status page must not depend on the marketing site.
+  # Down/degraded keep Upptime's red/amber; Sail's tokens have no red.
+  css: |
+    :root {
+      --body-background-color: #F5FBFD;
+      --body-text-color: #12181E;
+      --card-background-color: #FFFFFF;
+      --card-border-color: #EAECF0;
+      --nav-background-color: #FFFFFF;
+      --nav-border-bottom-color: #EAECF0;
+      --nav-current-border-bottom-color: #438FC1;
+      --up-border-left-color: #17B26A;
+      --tag-up-background-color: #17B26A;
+      --error-button-border-color: #29435D;
+      --error-button-background-color: #438FC1;
+      --submit-button-border-color: #29435D;
+      --submit-button-background-color: #438FC1;
+    }
+    body { font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+    h1, h2, h3, h4 { font-family: "Manrope", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+    a { color: #438FC1; }
