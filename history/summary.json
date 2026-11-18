@@ -22,35 +22,39 @@
     "url": "https://live.savewithsail.com/api/v1/merchants?limit=1",
     "icon": "https://icons.duckduckgo.com/ip3/live.savewithsail.com.ico",
     "slug": "platform-api",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.97%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 309,
-    "timeDay": 230,
-    "timeWeek": 309,
-    "timeMonth": 309,
-    "timeYear": 309,
-    "dailyMinutesDown": {}
+    "time": 268,
+    "timeDay": 127,
+    "timeWeek": 268,
+    "timeMonth": 268,
+    "timeYear": 268,
+    "dailyMinutesDown": {
+      "2026-11-18": 0
+    }
   },
   {
     "name": "Benefit Connect API",
     "url": "https://live.sail-platform.com/api/v1/",
     "icon": "https://icons.duckduckgo.com/ip3/live.sail-platform.com.ico",
     "slug": "benefit-connect-api",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 345,
-    "timeDay": 485,
-    "timeWeek": 345,
-    "timeMonth": 345,
-    "timeYear": 345,
-    "dailyMinutesDown": {}
+    "time": 322,
+    "timeDay": 335,
+    "timeWeek": 322,
+    "timeMonth": 322,
+    "timeYear": 322,
+    "dailyMinutesDown": {
+      "2026-11-18": 0
+    }
   }
 ]
