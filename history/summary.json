@@ -22,21 +22,21 @@
     "url": "https://live.savewithsail.com/api/v1/merchants?limit=1",
     "icon": "https://icons.duckduckgo.com/ip3/live.savewithsail.com.ico",
     "slug": "platform-api",
-    "status": "down",
-    "uptime": "99.86%",
-    "uptimeDay": "99.35%",
-    "uptimeWeek": "99.82%",
-    "uptimeMonth": "99.86%",
-    "uptimeYear": "99.86%",
-    "time": 241,
-    "timeDay": 185,
-    "timeWeek": 228,
-    "timeMonth": 241,
-    "timeYear": 241,
+    "status": "up",
+    "uptime": "99.81%",
+    "uptimeDay": "98.81%",
+    "uptimeWeek": "99.74%",
+    "uptimeMonth": "99.81%",
+    "uptimeYear": "99.81%",
+    "time": 237,
+    "timeDay": 184,
+    "timeWeek": 224,
+    "timeMonth": 237,
+    "timeYear": 237,
     "dailyMinutesDown": {
       "2026-11-18": 9,
       "2026-11-21": 9,
-      "2026-11-22": 0
+      "2026-11-22": 8
     }
   },
   {
@@ -44,21 +44,21 @@
     "url": "https://live.sail-platform.com/api/v1/",
     "icon": "https://icons.duckduckgo.com/ip3/live.sail-platform.com.ico",
     "slug": "benefit-connect-api",
-    "status": "down",
-    "uptime": "99.87%",
-    "uptimeDay": "99.39%",
-    "uptimeWeek": "99.82%",
-    "uptimeMonth": "99.87%",
-    "uptimeYear": "99.87%",
-    "time": 326,
-    "timeDay": 279,
-    "timeWeek": 342,
-    "timeMonth": 326,
-    "timeYear": 326,
+    "status": "up",
+    "uptime": "99.81%",
+    "uptimeDay": "98.84%",
+    "uptimeWeek": "99.74%",
+    "uptimeMonth": "99.81%",
+    "uptimeYear": "99.81%",
+    "time": 315,
+    "timeDay": 253,
+    "timeWeek": 327,
+    "timeMonth": 315,
+    "timeYear": 315,
     "dailyMinutesDown": {
       "2026-11-18": 9,
       "2026-11-21": 9,
-      "2026-11-22": 0
+      "2026-11-22": 8
     }
   }
 ]
