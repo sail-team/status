@@ -1,7 +1,7 @@
 url: https://live.savewithsail.com/api/v1/merchants?limit=1
-status: down
-code: 403
-responseTime: 23
-lastUpdated: 2026-11-23T15:24:51.865Z
+status: up
+code: 200
+responseTime: 422
+lastUpdated: 2026-11-23T15:34:31.640Z
 startTime: 2026-11-12T23:29:12.564Z
 generator: Upptime <https://github.com/upptime/upptime>
