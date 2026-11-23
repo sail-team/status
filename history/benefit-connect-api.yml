@@ -1,7 +1,7 @@
 url: https://live.sail-platform.com/api/v1/
-status: down
-code: 403
-responseTime: 181
-lastUpdated: 2026-11-23T15:25:08.061Z
+status: up
+code: 200
+responseTime: 374
+lastUpdated: 2026-11-23T15:34:35.886Z
 startTime: 2026-11-12T23:29:13.037Z
 generator: Upptime <https://github.com/upptime/upptime>
